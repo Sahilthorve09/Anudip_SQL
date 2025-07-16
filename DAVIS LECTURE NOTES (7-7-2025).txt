@@ -1,0 +1,33 @@
+DAVIS LECTURE NOTES: (7-7-2025)
+
+
+
+data = collection of information
+relational data ; the data which is in the form of table ( rows and column constraints ) called as relational dat.
+
+non relational; The data which is not present in the form of table is called non relational             (e.g. photos audios  videos)'
+
+crud : create read update delete (maximum operation we can perform on data)
+DBMS : dbms is a database management system where we perform crud operation on data
+
+RDBMS : in this we perform Crud operation on relational data.
+
+SQL :SQL is structure query language used to perform CRUD operation which is nothing but relational database management system.
+
+Required Material for Create table:
+1) Table name- (student)
+2) Column Name- (Roll_no, name, marks, Dob);
+3) Data type
+4)limit of character for column
+5) constraint(limit *)
+
+-create table table_name(
+col1 Datatype(size) constraints,
+col2...);
+
+-Create table std(
+Roll_no int primary key,
+name char(50) Not null,
+marks decimal(3.4) Not NUll,
+DOS Date Not Null,
+age int);

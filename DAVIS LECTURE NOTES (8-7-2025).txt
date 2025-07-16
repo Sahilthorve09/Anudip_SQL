@@ -1,0 +1,53 @@
+DAVIS LECTURE NOTES: (8-7-2025)
+
+Creating table rules :
+
+1) White Spaces Not allowed
+     - for ex: stud name(not allowed)
+ 	       stud_name (allowed)
+
+
+Most data types used in SQL :
+
+1) String data type :
+- SQL data type defines the type of data that colm can store in database table
+- each colm in table is associated with specific data type and data type determines the kind of value that can be store in that colm
+
+2) Binary :
+- uses for store binary values
+- Default value is 1
+
+3) Numerical :
+   - i)   int
+   - ii)  longInt
+   - iii) float
+   - iv)  Boolean
+ 
+4) Date :
+   - i) date(yyyy-mm-dd)
+
+Create Table Querry:
+Create table std(Roll_no int primary key,name char(50) Not null,marks decimal(3.4) Not NUll,DOS Date Not Null,age int);
+
+Insert Data Querry :
+ insert std values(1,'Rushikesh',8,'2004-05-31',21), (2,'Sahil',8,'2004-09-14',20);
+
+
+where clause is use to extract only those record that fullfill a specific condition
+
+Querry: select * from tabl_name where condition;
+
+
+SQL operators:
+
+the sql reserve words, characters and symbols are called as operators which are used witha a where clause in sql querry
+
+Most used operators:
+
+Arithmatic operators: arathamatic operation on numeric values
+example: Addition(+), Subtraction(-), Multiplication, Division, Modulus.
+Comparision operators:
+example: Equal(=), Not Equal(!=), Greater Than (>), Greater Than Equals (>=)
+Logical Operators: perform the boolean operation
+example:
+bitwise operators:''
